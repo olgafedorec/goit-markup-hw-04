@@ -340,13 +340,12 @@ margin-bottom: 12px;
     display: flex;
     justify-content: center;
     gap: 24px;
-
+    margin-bottom: 36px;
 }
 
 .team-soc-item {
     width: 40px;
     height: 40px;
-    margin-bottom: 36px;
 }
 
 
@@ -359,6 +358,11 @@ margin-bottom: 12px;
     align-items: center;
     justify-content: center;
 } 
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: var(--ocean);
+}
 
 .team-soc-icon {
     fill: var(--cloud-color);
@@ -398,6 +402,10 @@ margin-bottom: 12px;
 }
 
 .customers-link:hover .customers-icon {
+    fill: var(--ocean);
+}
+
+.customers-link:focus .customers-icon {
     fill: var(--ocean);
 }
 
@@ -560,12 +568,12 @@ color: var(--white-color);
     display: flex;
     gap: 16px;
     justify-content: center;
+    margin-top: 16px;
 }
 
 .footer-social-item {
     width: 40px;
     height: 40px;
-    margin-top: 16px;
 }
 
 .footer-social-link {
